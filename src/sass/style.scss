@@ -1,0 +1,42 @@
+@import "base/reset";
+@import "base/vars";
+@import "lib/fonts";
+
+* {
+  box-sizing: border-box;
+  &::after,
+  &::before {
+    box-sizing: border-box;
+  }
+}
+
+body {
+  font-family: "Gilroy";
+  font-weight: 400;
+  color: #333;
+}
+
+.container {
+  width: 1262px;
+  margin: 0 auto;
+}
+.container__fluid {
+  width: 1372px;
+  margin: 0 auto;
+}
+.non-section {
+  &-text {
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 300;
+    width: 722px;
+    margin-top: -50px;
+    // margin: auto;
+  }
+}
+
+@import "block/btns";
+@import "block/titles";
+@import "block/promo";
+@import "block/header";
+@import "block/costs";

@@ -1,0 +1,75 @@
+.header {
+  padding-top: 28px;
+  &__wrapper {
+    display: flex;
+    align-items: center;
+  }
+  &__logo {
+    margin-right: 54px;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu-list {
+    display: flex;
+    margin-right: 90px;
+  }
+  &__menu-item {
+    margin-right: 27px;
+    font-size: 17px;
+    line-height: 20px;
+    font-weight: 600;
+    position: relative;
+  }
+  &__menu-link {
+    color: #fff;
+  }
+  &__menu-item:last-child {
+    margin-right: 0;
+  }
+  &__menu-item:hover::after {
+    content: "";
+    position: absolute;
+    width: 11px;
+    height: 6px;
+    background-image: url("../img/header_arrow_down.svg");
+    right: -15px;
+    top: 8px;
+    transition: all 0.4s ease-in-out;
+  }
+  &__question {
+    display: flex;
+    align-items: center;
+    margin-right: 55px;
+  }
+  &__question-img {
+    margin-right: 10px;
+  }
+  &__question-link {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    color: #ffcc00;
+    text-decoration: underline;
+  }
+  &__phone {
+    display: flex;
+    flex-direction: column;
+  }
+  &__phone-link {
+    font-size: 14px;
+    line-height: 17px;
+    color: #fff;
+    font-weight: 600;
+    text-align: right;
+  }
+  &__phone-number {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 4px;
+  }
+}
