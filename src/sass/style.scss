@@ -35,8 +35,14 @@ body {
   }
 }
 
+.swiper-slide:last-child{
+ margin-right: 0;
+}
+
 @import "block/btns";
 @import "block/titles";
 @import "block/promo";
 @import "block/header";
 @import "block/costs";
+@import "block/it-support";
+@import "block/team";
