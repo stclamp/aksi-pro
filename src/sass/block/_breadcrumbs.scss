@@ -1,0 +1,13 @@
+.breadcrumbs {
+  margin-top: 29px;
+  margin-bottom: 16px;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 300;
+  &__link {
+    color: #1678ac;
+  }
+  &__current {
+    color: #333;
+  }
+}

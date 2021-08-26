@@ -1,0 +1,125 @@
+.contacts {
+  &__wrapper {
+    margin-top: 29px;
+    display: flex;
+  }
+  &__adress {
+    width: 280px;
+    padding-left: 41px;
+    position: relative;
+    margin-right: 108px;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 23px;
+      height: 27px;
+      background-image: url("../img/adress.png");
+    }
+  }
+  &__adress-text {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  &__adress-link {
+    margin-top: 21px;
+    padding-left: 64px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    text-decoration: underline;
+    color: #1678ac;
+    position: relative;
+    margin-top: 22px;
+    display: block;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 51px;
+      height: 24px;
+      left: 0;
+      top: 0;
+      background-image: url("../img/pdf.png");
+    }
+  }
+  &__numbers {
+    width: 267px;
+    margin-right: 180px;
+    padding-left: 38px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      width: 23px;
+      height: 23px;
+      left: 0;
+      top: 0;
+      background-image: url("../img/number.png");
+    }
+  }
+  &__number-it {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    margin-top: 0;
+    width: 267px;
+    a {
+      display: block;
+      font-size: 20px;
+      color: #333;
+      line-height: 22px;
+      font-weight: 400;
+    }
+  }
+  &__number-region {
+    margin-top: 42px;
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 300;
+    width: 267px;
+    a {
+      display: block;
+      font-size: 20px;
+      color: #333;
+      line-height: 22px;
+      font-weight: 400;
+    }
+  }
+  &__social {
+    padding-left: 40px;
+    position: relative;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 25px;
+      height: 20px;
+      background-image: url("../img/mail.png");
+    }
+  }
+  &__social-mail {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #333;
+    margin-top: -6px;
+    display: block;
+  }
+  &__social-icons {
+    display: flex;
+    margin-top: 35px;
+    margin-left: -40px;
+  }
+  &__social-icon {
+    margin-right: 24px;
+    img {
+      width: 48px;
+      height: 48px;
+    }
+  }
+  &__social-icon:last-child {
+    margin-right: 0;
+  }
+}
