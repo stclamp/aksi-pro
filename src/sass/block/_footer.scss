@@ -1,0 +1,175 @@
+.footer {
+  padding-top: 77px;
+  padding-bottom: 29px;
+  min-height: 882px;
+  background-image: url("../img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__row {
+    display: grid;
+    grid-template-columns: 402px 268px 267px;
+    justify-content: space-between;
+  }
+  &__column {
+    display: flex;
+    flex-direction: column;
+    margin-top: 27px;
+  }
+  &__column-link {
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 300;
+  }
+  &__logo {
+    width: 184px;
+    height: 55px;
+  }
+  &__row--b {
+    // display: grid;
+    // grid-template-columns: 184px 243px 113px 70px 192px;
+    display: flex;
+    margin-top: 51px;
+    width: 1173px;
+    .footer__column:first-child {
+      margin-right: 66px;
+    }
+    .footer__column:nth-child(2) {
+      margin-right: 78px;
+    }
+    .footer__column:nth-child(3) {
+      margin-right: 105px;
+    }
+    .footer__column:nth-child(4) {
+      margin-right: 154px;
+    }
+  }
+  &__copyright {
+    margin-top: 14px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 300;
+  }
+  &__policy-link {
+    color: #ffcc00;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    text-decoration: underline;
+  }
+  &__column-phone {
+    text-align-last: left;
+    line-height: 18px;
+  }
+  &__column-number {
+    font-size: 22px;
+    line-height: 29px;
+  }
+  &__column-link--whats {
+    margin-top: 14px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 37px;
+      height: 37px;
+      right: -26px;
+      bottom: 4px;
+      background-image: url("../img/whatsapp.png");
+    }
+  }
+}
+.consultation {
+  padding-bottom: 80px;
+  border-bottom: 2px solid #33b1dd;
+  &__title {
+    text-align: center;
+    font-size: 52px;
+    line-height: 63px;
+    font-weight: 700;
+    color: #fff;
+    span {
+      color: #ffcc00;
+    }
+  }
+  &__subtitle {
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+  &__form {
+    width: 361px;
+    margin: auto;
+    margin-top: 30px;
+  }
+  &__input {
+    width: 344px;
+    background: #ffffff;
+    border-radius: 50px;
+    border: none;
+    padding: 20px;
+    margin-top: 10px;
+    &::placeholder {
+      font-size: 18px;
+      line-height: 22px;
+      font-weight: 300;
+      color: #abb7c1;
+    }
+  }
+  &__btn {
+    border: none;
+    width: 344px;
+    margin-top: 33px;
+    cursor: pointer;
+  }
+  &__checkbox {
+    position: absolute;
+    // z-index: -1;
+    opacity: 0;
+  }
+  &__checkbox + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+  }
+  &__checkbox + label {
+    display: inline-flex;
+    align-items: flex-start;
+    user-select: none;
+  }
+  &__checkbox + label::before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 2px solid #54d3fc;
+    border-radius: 0.25em;
+    margin-right: 1.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+  }
+  &__checkbox:checked + label::before {
+    background-image: url("../img/policy__check.png");
+    background-size: contain;
+  }
+  &__policy {
+    // display: flex;
+    // justify-content: space-between;
+    margin-top: 26px;
+    width: 330px;
+  }
+  &__policy-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    font-weight: 300;
+    width: 360px;
+  }
+}

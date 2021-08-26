@@ -1,0 +1,59 @@
+.outsource {
+  padding-top: 222px;
+  padding-bottom: 70px;
+  background-image: url("../img/outsource-bg.png");
+  background-repeat: no-repeat;
+  background-position-y: 86px;
+  &__image {
+    margin-top: -367px;
+  }
+  &__title {
+    line-height: 55px;
+    &::after {
+      top: 71px;
+      right: 492px;
+    }
+  }
+  &__subtitle {
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 300;
+    margin-top: 21px;
+  }
+  &__cards {
+    margin-top: 59px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  &__card:hover img {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 100px;
+  }
+  &__card-img {
+    width: 142px;
+    height: 142px;
+    transition: all 0.2s ease-in-out;
+  }
+  &__card-title {
+    margin-top: 21px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 600;
+    text-align: center;
+    width: 155px;
+  }
+  &__card-text {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 300;
+    width: 189px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+  }
+}

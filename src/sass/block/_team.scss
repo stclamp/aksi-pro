@@ -1,3 +1,26 @@
 .team {
-    padding-top: 165px;
+  padding-top: 165px;
+  padding-bottom: 89px;
+  &__card-img {
+    margin: 0 auto;
+  }
+  &__card-name {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 18px;
+    margin-top: 16px;
+  }
+  &__card-position {
+    display: block;
+    width: 190px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #20a0c9;
+  }
 }
