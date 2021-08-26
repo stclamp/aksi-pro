@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,25 +9,25 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
     <header class="header__page">
         <div class="container">
             <div class="header__wrapper">
                 <div class="header__logo">
-                    <img src="img/header_logo.svg" alt="Logo" class="header__logo-img">
+                    <a href="index.html"><img src="img/header_logo.svg" alt="Logo" class="header__logo-img"></a>
                 </div>
                 <nav class="header__nav">
                     <ul class="header__menu-list">
-                        <li class="header__menu-item"><a href="#" class="header__menu-link">Компания</a></li>
+                        <li class="header__menu-item"><a href="index.html" class="header__menu-link">Компания</a></li>
                         <li class="header__menu-item"><a href="#costs" class="header__menu-link">Услуги и цены</a>
                         </li>
                         <li class="header__menu-item"><a href="#" class="header__menu-link">ИТ-аутсорсинг</a></li>
-                        <li class="header__menu-item"><a href="#" class="header__menu-link">Блог</a></li>
+                        <li class="header__menu-item"><a href="blog.html" class="header__menu-link">Блог</a></li>
                         <li class="header__menu-item"><a href="#" class="header__menu-link">Контакты</a></li>
                     </ul>
                     <div class="header__question">
-                        <a href="#"><img src="img/header_question_circle.png" alt=""
-                                class="header__question-img"></a>
+                        <a href="#"><img src="img/header_question_circle.png" alt="" class="header__question-img"></a>
                         <a href="#" class="header__question-link">Задать вопрос</a>
                     </div>
                     <div class="header__phone">
@@ -57,7 +58,8 @@
                 <div class="contacts__numbers">
                     <p class="contacts__number-it"><a href="tel:+74951910798">+7 (495) 191-07-98</a>
                         По вопросам ИТ обслуживания</p>
-                    <p class="contacts__number-region"><a href="tel:88005555151">8 800 555-51-51</a> Бесплатный телефон для регионов</p>
+                    <p class="contacts__number-region"><a href="tel:88005555151">8 800 555-51-51</a> Бесплатный телефон
+                        для регионов</p>
                 </div>
                 <div class="contacts__social">
                     <a href="mailto:outsource@alp-itsm.ru" class="contacts__social-mail">outsource@alp-itsm.ru</a>
@@ -69,20 +71,28 @@
                 </div>
             </div>
         </div>
+        <div class="contacts__map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1122.4046432925181!2d37.553205493802885!3d55.7618151045173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54bd48f550be3%3A0x7afd120bab851488!2zMi3RjyDQl9Cy0LXQvdC40LPQvtGA0L7QtNGB0LrQsNGPINGD0LsuLCAxMyDRgdGC0YDQvtC10L3QuNC1IDUsINCc0L7RgdC60LLQsCwg0KDQvtGB0YHQuNGPLCAxMjMwMjI!5e0!3m2!1sru!2sua!4v1629988321866!5m2!1sru!2sua"
+                width="100%" height="579" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
     </section>
-    <footer class="footer">
-        
+
+    <footer class="footer contacts__footer">
+
         <div class="consultation">
             <div class="container">
                 <h3 class="consultation__title">Получите <span>бесплатную</span> консультацию</h3>
                 <p class="consultation__subtitle">Перезвоним через несколько минут и ответим на ваши вопросы</p>
                 <form class="consultation__form">
-                    <input type="text" name="name" id="name" class="consultation__input"placeholder="Имя:">
-                    <input type="number" name="tel" id="tel" class="consultation__input"placeholder="Телефон:">
+                    <input type="text" name="name" id="name" class="consultation__input" placeholder="Имя:">
+                    <input type="number" name="tel" id="tel" class="consultation__input" placeholder="Телефон:">
                     <button class="btn consultation__btn">Отправить</button>
                     <div class="consultation__policy">
                         <input type="checkbox" class="consultation__checkbox" id="happy" name="happy" value="yes">
-                        <label class="consultation__policy-text">Я принимаю условия Пользовательского соглашения и даю свое согласие на обработку моих персональных данных в соответствии с Политикой конфиденциальности</label>
+                        <label class="consultation__policy-text">Я принимаю условия Пользовательского соглашения и даю
+                            свое согласие на обработку моих персональных данных в соответствии с Политикой
+                            конфиденциальности</label>
                     </div>
                 </form>
             </div>
@@ -134,4 +144,5 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
+
 </html>
