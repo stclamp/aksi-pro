@@ -16,7 +16,7 @@ smoothScrollElems.forEach(link => {
 
 //swiper js
 
-const swiper = new Swiper('.swiper', {
+const swiper = new Swiper('.swiper-1', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -28,4 +28,18 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
     slidesPerView: 4
+});
+
+const swiperServices = new Swiper('.swiper-2', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    scrollbar: false,
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    slidesPerView: 3
 });

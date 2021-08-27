@@ -1,0 +1,124 @@
+.service {
+    &__main-block {
+        margin-top: 16px;
+        display: flex;
+        align-items: center;
+    }
+    &__main-block--text {
+        width: 830px;
+        margin-right: 40px;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 300;
+    }
+    &__main-block--text-2 {
+        margin-top: 50px;
+    }
+    &__main-block--img{
+        margin-top: -50px;
+    }
+    &__item--title{
+        font-size: 22px;
+        line-height: 26px;
+        font-weight: 600;
+        margin-top: 45px;
+        padding-left: 23px;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 6px;
+            width: 12px;
+            height: 12px;
+            background-color:#20A0C9;
+            border-radius: 50%;
+        }
+    }
+    &__item {
+        padding-left: 23px;
+        margin-top: 8px;
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: 300;
+    }
+    &__covid {
+        margin-top: 57px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__covid-block {
+        width: 639px;
+        display: flex;
+        background-color: #fff;
+        margin-left: -40px;
+        padding: 17px 20px;
+        margin-top: 26px;
+        border: 1px solid #FF9200;
+        border-radius: 6px;
+        align-items: center;
+    }
+    &__covid-virus{
+        width: 58px;
+        height: 58px;
+    }
+    &__covid-title{
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 600;
+        width: 516px;
+        margin-left: 19px;
+    }
+    &__covid-text{
+        width: 534px;
+        margin-left: 60px;
+        margin-top: 21px;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 300;
+    }
+    &__covid-text--b{
+        width: 534px;
+        margin-left: 60px;
+        margin-top: 55px;
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 300;
+    }
+    &__wrapper {
+        margin-top: 77px;
+        padding-top: 73px;
+        padding-bottom: 77px;
+        background-color: #F2F7FA;
+    }
+    &__calculator {
+        background: #FFFFFF;
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        padding-left: 47px;
+        padding-top: 33px;
+        padding-right: 25px;
+        padding-bottom: 35px;
+    }
+    &__calculator-title{
+        font-size: 36px;
+        line-height: 43px;
+        font-weight: 600;
+    }
+    &__inner {
+        display: flex;
+    }
+    &__computers-title{
+        font-size: 24px;
+        line-height: 29px;
+        font-weight: 300;
+        margin-top: 29px;
+    }
+    progress.styled{
+        width: 793px;
+        height: 27px;
+    }
+    progress.styled::-webkit-progress-value {
+        background-color: #20A0C9;
+    }
+}
